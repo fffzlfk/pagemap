@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "pagemap"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool for virtual memory."
 authors = ["fffzlfk <1319933925qq@gmail.com>"]
 readme = "README.md"
 keywords = ["pagemap", "maps", "linux"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"

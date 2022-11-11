@@ -11,4 +11,4 @@ class Row(object):
         self.present = (data >> 63) & 1 == 1
 
     def __str__(self) -> str:
-        return f'swapped: {self.present}, present: {self.swapped}, file/shared: {self.file_or_shared}, soft-dirty: {self.soft_dirty}, pfn: {hex(self.pfn)}'
+        return f'swapped: {self.swapped}, present: {self.present}, file/shared: {self.file_or_shared}, soft-dirty: {self.soft_dirty}, pfn: {hex(self.pfn)}'
